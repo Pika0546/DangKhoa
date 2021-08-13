@@ -1,0 +1,142 @@
+.contact{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+   
+    &__info{
+        display: flex;
+        justify-content:center;
+        width: 100%;
+        &__cell{
+            padding: 2rem 0;
+            text-align:center;
+            border-radius:1rem;
+            flex: 30%;
+            margin: 1.7rem;
+            &:nth-child(1):hover span{
+                animation: phoneRing .3s linear infinite;
+            }
+            &:nth-child(2):hover span{
+                animation: mailGo 2s linear infinite;
+            }
+            &:nth-child(3):hover span{
+                
+                animation: gitAni 2s linear infinite;
+            }
+        }
+        &__heading{
+            margin: .6rem 0;
+            color: $color-white;
+            font-size:1.5rem;
+            font-weight:100;
+        }
+        &--info{
+            user-select:text;
+            color: $color-grey-light;
+            font-size:1rem;
+            a{
+                color: $color-grey-light;
+                transition: all .2s;
+                
+            }
+        }
+        @include respond(600){
+            flex-wrap: wrap;
+
+        }
+        @include respond(400){
+            &__cell{
+                flex: 100%;
+            }
+        }
+    }
+    &__icon{
+      
+        font-size:1.3rem;
+    }
+    &__form{
+        &--input{
+            display:grid;
+            grid-template-columns: 45% 45%;
+            grid-gap: 10%;
+            position: relative;
+            height: auto;
+            @include respond(600){
+                grid-template-columns: 100%;
+                grid-gap: 1%;
+            }
+        }
+        &--container{
+            margin-top: 1rem;
+        }
+        &--form{
+            position: relative;
+        }
+
+        
+
+    }
+}
+
+.error-message{
+    color: $color-main-red;
+    
+    padding: .5rem 0 0 1rem;
+    display:none;
+}
+
+.form-group{
+    margin: 1rem;
+}
+
+.form{
+    &__input{
+        
+        border-radius: 1rem;
+        padding: .4rem .8rem;
+      
+        label{
+            color: $color-grey-light;
+          
+        }
+        input{
+            
+            font-size: 1rem;
+            font-weight: bold;
+            font-family: OpenSans;
+            color: $color-white;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            width: 80%;
+            @include respond(400){
+                width:100%;
+            }
+        }
+        textarea{
+            
+            font-size: 1rem;
+            font-family: OpenSans;
+            color: $color-white;
+            margin-top: .5rem;
+            display:block;
+            width: auto;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            resize: none;
+            width:100%;
+        }
+    }
+}
+.send-btn{
+    display: block;
+    position: relative;
+  
+    outline: none;
+    border: none;
+    transition: all .2s;
+    margin-bottom: 2rem;
+    @include respond(600){
+        margin-top:3rem;
+    }
+}

@@ -1,0 +1,51 @@
+@mixin contentCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin verticalCenter{
+    display: flex;
+    align-items: center;
+}
+
+@mixin verticalBottom{
+    display: flex;
+    align-items: flex-end;
+}
+
+@mixin horizontalCenter{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin clearfix{
+    &:after{
+        display:table;
+        content: " ";
+        clear: both;
+    }
+}
+
+@mixin  respond($breakpoint) {
+    
+    @if $breakpoint == 400{
+        @media (max-width: 400px){@content};
+    }
+
+    @if $breakpoint == 600{
+        @media (max-width: 600px){@content}; //600px
+    }
+    @if $breakpoint == 750{
+        @media (max-width: 750px){@content};
+    }
+    @if $breakpoint == 900{
+        @media (max-width: 900px){@content};  //900px
+    }
+    @if $breakpoint == 1200{
+        @media (max-width: 1200px){@content}; //1200px
+    }
+    @if $breakpoint == 1800{
+        @media (min-width: 1800px){@content}; //1800px
+    }
+}
