@@ -154,5 +154,29 @@
         "brief":"This is an audio player that I made with ReactJS. It has basic functions like next audio, pre audio, backward, forward, etc... ",
         "srcCode":"https://github.com/Pika0546/projects/tree/main/AudioPlayer",
         "date":"2021"
+    },
+    {
+        "name": "Icechu",
+        "src1":"./img/project/icechu.png",
+        "src2":"./img/project/icechuIframe.png",
+        "tool": ["HTML", "CSS", "javascript", "Bootstrap"],
+        "author":"Me",
+        "type" : "website",
+        "link":"https://pika0546.github.io/icechu/",
+        "brief":"This is the landing-page of an IceScream Shop that I made to practice my Bootstrap skill",
+        "srcCode":"https://github.com/Pika0546/projects/tree/main/icechu",
+        "date":"2021"
+    },
+    {
+        "name": "Pokedex",
+        "src1":"./img/project/pokedex.png",
+        "src2":"./img/project/pokedexIframe.png",
+        "tool": ["ReactJS"],
+        "author":"Me",
+        "type" : "website",
+        "link":"https://pika0546.github.io/pokedex/",
+        "brief":"This is a pokemon dictionary that I made using PokeAPI",
+        "srcCode":"https://github.com/Pika0546/projects/tree/main/pokedex",
+        "date":"2021"
     }
 ]
