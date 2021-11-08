@@ -1,12 +1,12 @@
 {
   "name": "me",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sasstocss": "node-sass sass/main.scss css/style.css -w"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pika0546/dangkhoa.git"
@@ -23,4 +23,5 @@
   "devDependencies": {
     "node-sass": "^6.0.1"
   }
+
 }
