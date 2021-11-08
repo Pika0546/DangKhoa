@@ -3,20 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "sasstocss": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "me",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.14.1"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pika0546/dangkhoa.git"
   },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "pika",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pika0546/dangkhoa/issues"
   },
   "homepage": "https://github.com/Pika0546/dangkhoa#readme",
-  "description": ""
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+
 }

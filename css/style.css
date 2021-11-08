@@ -87,6 +87,8 @@ iframe[seamless] {
   left: 0; }
 
 .part {
+  max-width: 1500px;
+  margin: 0 auto;
   padding: 0 8rem; }
   @media (max-width: 600px) {
     .part {
