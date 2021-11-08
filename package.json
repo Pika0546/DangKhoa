@@ -1,15 +1,22 @@
 {
   "name": "me",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sasstocss": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "",
+  "author": "me",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "node-sass": "^4.14.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pika0546/dangkhoa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pika0546/dangkhoa/issues"
+  },
+  "homepage": "https://github.com/Pika0546/dangkhoa#readme",
+  "description": ""
 }
